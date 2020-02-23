@@ -1,9 +1,9 @@
 body, html, #root {
   height: 100%;
   background-color: #FDEA0F;
-  background-image: url('./Components/Home/background.jpg');
+  /* background-image: url('./Components/Home/background.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
 * {
