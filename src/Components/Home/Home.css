@@ -6,6 +6,7 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .button {
     display: block;
     position: fixed;
@@ -13,23 +14,14 @@
     padding: 20px;
 }
 
-.home a {
-    color: #DA291C;
-    text-decoration: none;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 3em;
+.button img {
+    height: 45px;
 }
 
 @media (max-width: 600px) {
-    .home a {
-        text-decoration: none;
-        font-family: 'Helvetica', sans-serif;
-        font-size: 1.4em;
+    .button img {
+        height: 25px;
     }
-}
-
-.button img {
-    height: 45px;
 }
 
 .button:nth-child(1) {
