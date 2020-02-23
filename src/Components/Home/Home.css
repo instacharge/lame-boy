@@ -2,7 +2,7 @@
     position: relative;
     height: 100%;
     width: 100vw;
-    background-image: url('./paper-background.jpg');
+    background-image: url('./paper-background-yellow-logo.jpg');
     background-size: cover;
     background-position: center left;
 }
@@ -11,7 +11,7 @@
     display: block;
     position: absolute;
     width: 30%;
-    max-width: 300px;
+    max-width: 200px;
     padding: 40px;
 }
 
