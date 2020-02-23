@@ -1,6 +1,6 @@
 .home {
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-image: url('./paper-background.jpg');
     background-size: cover;
