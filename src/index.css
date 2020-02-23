@@ -1,6 +1,6 @@
 body, html, #root {
   height: 100%;
-  background-color: #FFC72C;
+  background-color: rgb(255, 232, 25);
 }
 
 * {
