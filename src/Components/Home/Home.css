@@ -1,0 +1,40 @@
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./paper-background.jpg');
+    background-size: cover;
+    background-position: center left;
+}
+
+.button {
+    display: block;
+    position: absolute;
+    width: 30%;
+    max-width: 300px;
+    padding: 40px;
+}
+
+.button img {
+    width: 100%;
+}
+
+.button:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.button:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+
+.button:nth-child(3) {
+    bottom: 0;
+    left: 0;
+}
+
+.button:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}
