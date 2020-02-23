@@ -10,19 +10,20 @@
 .button {
     display: block;
     position: absolute;
-    width: 30%;
+    width: 50%;
     max-width: 200px;
     padding: 40px;
 }
 
 @media (max-width: 600px) {
-    .button {
+    /* .button {
         padding: 20px;
-    }
+    } */
 }
 
 .button img {
     width: 100%;
+    max-width: auto;
 }
 
 .button:nth-child(1) {

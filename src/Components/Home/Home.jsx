@@ -5,7 +5,7 @@ import './Home.css'
 import ShopButton from './shop-button.png'
 import CartButton from './cart-button.png'
 import MediaButton from './media-button.png'
-import ContactButton from './shop-button.png'
+import ContactButton from './contact-button.png'
 
 class Home extends React.Component {
 
@@ -22,7 +22,7 @@ class Home extends React.Component {
                     <img src={MediaButton} alt=""/>
                 </a>
                 <a href="# " className="button">
-                    <img src={MediaButton} alt=""/>
+                    <img src={ContactButton} alt=""/>
                 </a>
             </div>
         )
