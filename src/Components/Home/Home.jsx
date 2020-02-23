@@ -2,8 +2,8 @@ import React from 'react'
 
 import './Home.css'
 
-import ShopButton from './button-shop-funky.jpg'
-import CartButton from './button-cart-funky.jpg'
+import ShopButton from './button-shop-funky-2.jpg'
+import CartButton from './button-cart-funky-2.jpg'
 import MediaButton from './button-media-funky.jpg'
 import ContactButton from './button-contact-funky.jpg'
 
