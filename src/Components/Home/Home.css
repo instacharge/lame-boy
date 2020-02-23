@@ -1,17 +1,16 @@
 .home {
     height: 100%;
     width: 100%;
-    background-image: url('./lame-boy-logo-red2.png');
-    background-size: 220px;
+    background-image: url('./lame-boy-logo-red-4.png');
+    background-size: 160px;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .button {
     display: block;
     position: fixed;
-    width: 30%;
-    /* max-width: 200px; */
-    padding: 10px;
+    width: auto;
+    padding: 20px;
 }
 
 .home a {
@@ -30,8 +29,7 @@
 }
 
 .button img {
-    width: 100%;
-    max-width: auto;
+    height: 45px;
 }
 
 .button:nth-child(1) {
