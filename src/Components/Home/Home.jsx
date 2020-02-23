@@ -2,10 +2,10 @@ import React from 'react'
 
 import './Home.css'
 
-import ShopButton from './button-shop-final.png'
-import CartButton from './button-cart-final.png'
-import MediaButton from './button-media-final.png'
-import ContactButton from './button-contact-final.png'
+import ShopButton from './button-shop-scan.png'
+import CartButton from './button-cart-scan.png'
+import MediaButton from './button-media-scan.png'
+import ContactButton from './button-contact-scan.png'
 
 class Home extends React.Component {
 
