@@ -6,19 +6,28 @@
     background-size: cover;
     background-position: center center;
 }
-
 .button {
     display: block;
     position: absolute;
     width: 50%;
-    max-width: 200px;
+    /* max-width: 200px; */
     padding: 40px;
 }
 
+.home a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 3em;
+}
+
 @media (max-width: 600px) {
-    /* .button {
-        padding: 20px;
-    } */
+    .home a {
+        color: black;
+        text-decoration: none;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 1.4em;
+    }
 }
 
 .button img {
@@ -34,6 +43,7 @@
 .button:nth-child(2) {
     top: 0;
     right: 0;
+    text-align: right;
 }
 
 .button:nth-child(3) {
@@ -44,4 +54,5 @@
 .button:nth-child(4) {
     bottom: 0;
     right: 0;
+    text-align: right;
 }

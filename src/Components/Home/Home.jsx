@@ -2,10 +2,10 @@ import React from 'react'
 
 import './Home.css'
 
-import ShopButton from './shop-button.png'
-import CartButton from './cart-button.png'
-import MediaButton from './media-button.png'
-import ContactButton from './contact-button.png'
+import ShopButton from './button-shop-helvetica.png'
+import CartButton from './button-cart-helvetica.png'
+import MediaButton from './button-media-helvetica.png'
+import ContactButton from './button-contact-helvetica.png'
 
 class Home extends React.Component {
 
@@ -13,16 +13,20 @@ class Home extends React.Component {
         return (
             <div className="home">
                 <a href="# " className="button">
-                    <img src={ShopButton} alt=""/>
+                    Shop
+                    {/* <img src={ShopButton} alt=""/> */}
                 </a>
                 <a href="# " className="button">
-                    <img src={CartButton} alt=""/>
+                    Cart
+                    {/* <img src={CartButton} alt=""/> */}
                 </a>
                 <a href="# " className="button">
-                    <img src={MediaButton} alt=""/>
+                    Media
+                    {/* <img src={MediaButton} alt=""/> */}
                 </a>
                 <a href="# " className="button">
-                    <img src={ContactButton} alt=""/>
+                    Contact
+                    {/* <img src={ContactButton} alt=""/> */}
                 </a>
             </div>
         )
