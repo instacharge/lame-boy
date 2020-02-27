@@ -1,8 +1,8 @@
 .home {
     height: 100%;
     width: 100%;
-    background-image: url('./lame-boy-logo-scan-rough.png');
-    background-size: 240px;
+    background-image: url('./lame-boy-logo-scan.jpg');
+    background-size: 220px;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -25,6 +25,7 @@
 .subscribe-popup.show {
     display: flex;
     opacity: 1;
+    transition: 0.3s ease all;
 }
 
 .subscribe-popup .title {
