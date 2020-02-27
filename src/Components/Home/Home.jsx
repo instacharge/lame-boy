@@ -17,7 +17,7 @@ class Home extends React.Component {
     }
 
     toggleWindow = (e) => {
-        if (e.target != e.currentTarget) return
+        if (e.target !== e.currentTarget) return
 
         this.setState({
             subscribe: this.state.subscribe ? false : true
