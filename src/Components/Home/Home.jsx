@@ -6,6 +6,8 @@ import ShopButton from './button-shop-scan.png'
 import CartButton from './button-cart-scan.png'
 import MediaButton from './button-media-scan.png'
 import ContactButton from './button-contact-scan.png'
+import SubmitButton from './button-submit.jpg'
+import EnterYourEmail from './enter-your-email.jpg'
 
 class Home extends React.Component {
     constructor(props) {
@@ -39,11 +41,12 @@ class Home extends React.Component {
         return (
             <>
                 <div className={this.state.subscribe ? 'subscribe-popup show' : 'subscribe-popup'} onClick={this.toggleWindow}>
+                    <img src={EnterYourEmail} className="enter-your-email" />
                     <form action="https://lame-boy.us4.list-manage.com/subscribe/post?u=2c71d6f9f2cee6717ce1efc9f&amp;id=922895561e" method="post">
-                        <input name="EMAIL" type="text" placeholder="Enter Your Email" onChange={this.showBtn}/>
+                        <input name="EMAIL" type="text" placeholder="yo@lameboy.com" onChange={this.showBtn}/>
                         {
                             this.state.email ?
-                            <input type="submit"/> :
+                            <input type="image" value="submit" src={SubmitButton} /> :
                             ''
                         }
                     </form>

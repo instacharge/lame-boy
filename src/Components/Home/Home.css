@@ -16,7 +16,7 @@
     flex-direction: column;
     z-index: 99;
     padding: 40px;
-    background-color: rgba(254, 231, 24, 0.95);
+    background-color: #FEE818;
     display: flex;
     pointer-events: none;
     opacity: 0;
@@ -37,8 +37,14 @@
     text-align: center;
 }
 
+.enter-your-email {
+    margin-bottom: 20px;
+    width: 200px;
+}
+
 .subscribe-popup input[type="text"] {
     -webkit-appearance: none;
+    width: 100%;
     display: block;
     margin-bottom: 20px;
     background-color: transparent;
@@ -50,13 +56,8 @@
     text-align: center;
 }
 
-.subscribe-popup input[type="submit"] {
-    text-align: center;
-    -webkit-appearance: none;
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    border-radius: 6px;
+.subscribe-popup input[type="image"] {
+    width: 100px;
 }
 
 .subscribe-popup input[type="text"]::placeholder {
