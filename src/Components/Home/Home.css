@@ -7,6 +7,43 @@
     background-repeat: no-repeat;
 }
 
+.subscribe-popup {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 99;
+    background-color: rgba(254, 231, 24, 0.95);
+    display: none;
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+.subscribe-popup.show {
+    display: flex;
+    opacity: 1;
+}
+
+.subscribe-popup .title {
+    margin-bottom: 20px;
+}
+
+.subscribe-popup input[type="text"] {
+    background-color: transparent;
+    padding: 20px;
+    font-size: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: 0;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.subscribe-popup input[type="text"]::placeholder {
+    color:  rgba(0, 0, 0, 0.2);
+}
+
 .button {
     display: block;
     position: fixed;
