@@ -17,13 +17,13 @@
     z-index: 99;
     padding: 40px;
     background-color: rgba(254, 231, 24, 0.95);
-    display: none;
+    display: flex;
+    pointer-events: none;
     opacity: 0;
     transition: 0.3s ease all;
 }
 
 .subscribe-popup.show {
-    display: flex;
     opacity: 1;
     transition: 0.3s ease all;
 }
