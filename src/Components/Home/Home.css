@@ -31,8 +31,14 @@
     margin-bottom: 10px;
 }
 
+.subscribe-popup form {
+    text-align: center;
+}
+
 .subscribe-popup input[type="text"] {
     -webkit-appearance: none;
+    display: block;
+    margin-bottom: 20px;
     background-color: transparent;
     padding: 20px;
     font-size: 1.5em;
@@ -40,6 +46,15 @@
     outline: 0;
     border-radius: 6px;
     text-align: center;
+}
+
+.subscribe-popup input[type="submit"] {
+    text-align: center;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 6px;
 }
 
 .subscribe-popup input[type="text"]::placeholder {

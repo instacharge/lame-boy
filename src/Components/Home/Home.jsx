@@ -12,7 +12,8 @@ class Home extends React.Component {
         super(props)
 
         this.state = {
-            subscribe: false
+            subscribe: false,
+            email: false
         }
     }
 
@@ -24,12 +25,27 @@ class Home extends React.Component {
         })
     }
 
+    timeout = null;
+    showBtn = () => {
+        if (this.timeout) clearTimeout(this.timeout)
+        this.timeout = setTimeout(() => {
+            this.setState({
+                email: true
+            })
+        }, 1000)
+    }
+
     render() {
         return (
             <>
                 <div className={this.state.subscribe ? 'subscribe-popup show' : 'subscribe-popup'} onClick={this.toggleWindow}>
                     <form action="https://lame-boy.us4.list-manage.com/subscribe/post?u=2c71d6f9f2cee6717ce1efc9f&amp;id=922895561e" method="post">
-                        <input autoFocus name="EMAIL" type="text" placeholder="Enter Your Email"/>
+                        <input name="EMAIL" type="text" placeholder="Enter Your Email" onChange={this.showBtn}/>
+                        {
+                            this.state.email ?
+                            <input type="submit"/> :
+                            ''
+                        }
                     </form>
                 </div>
                 <div className="home" onClick={this.toggleWindow}>
