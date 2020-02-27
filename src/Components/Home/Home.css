@@ -26,6 +26,7 @@
 .subscribe-popup.show {
     opacity: 1;
     transition: 0.3s ease all;
+    pointer-events: all;
 }
 
 .subscribe-popup .title {
