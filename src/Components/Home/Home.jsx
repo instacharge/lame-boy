@@ -30,7 +30,7 @@ class Home extends React.Component {
         })
         
         this.textInput.current.focus()
-        window.scrollTo(0, this.scrollPoint.current.offsetTop)
+        window.scrollTo(0, this.scrollPoint.current.offsetTop - 100)
     }
 
     timeout = null
