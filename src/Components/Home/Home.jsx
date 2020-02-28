@@ -17,6 +17,8 @@ class Home extends React.Component {
             subscribe: false,
             email: false
         }
+
+        this.textInput = React.createRef()
     }
 
     toggleWindow = (e) => {
@@ -25,6 +27,8 @@ class Home extends React.Component {
         this.setState({
             subscribe: this.state.subscribe ? false : true
         })
+        
+        this.textInput.current.focus()
     }
 
     timeout = null;
@@ -43,12 +47,8 @@ class Home extends React.Component {
                 <div className={this.state.subscribe ? 'subscribe-popup show' : 'subscribe-popup'} onClick={this.toggleWindow}>
                     <img src={EnterYourEmail} className="enter-your-email" alt="Enter Your Email" />
                     <form action="https://lame-boy.us4.list-manage.com/subscribe/post?u=2c71d6f9f2cee6717ce1efc9f&amp;id=922895561e" method="post">
-                        <input name="EMAIL" type="text" onChange={this.showBtn}/>
-                        {
-                            this.state.email ?
-                            <input type="image" value="submit" src={SubmitButton} alt="Enter Your Email" /> :
-                            ''
-                        }
+                        <input name="EMAIL" type="text" onChange={this.showBtn} ref={this.textInput} />
+                        <input className={this.state.email ? 'submit-btn show' : 'submit-btn'} type="image" value="submit" src={SubmitButton} alt="Enter Your Email" />
                     </form>
                 </div>
                 <div className="home" onClick={this.toggleWindow}>

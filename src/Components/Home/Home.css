@@ -37,10 +37,11 @@
     text-align: center;
 }
 
-.enter-your-email {
+.subscribe-popup .enter-your-email {
     margin-bottom: 20px;
     width: 200px;
 }
+
 
 .subscribe-popup input[type="text"] {
     -webkit-appearance: none;
@@ -64,6 +65,15 @@
     color:  rgba(0, 0, 0, 0.2);
 }
 
+.subscribe-popup .submit-btn {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+.subscribe-popup .submit-btn.show {
+    opacity: 1;
+}
+
 .button {
     display: block;
     position: fixed;
@@ -72,12 +82,12 @@
 }
 
 .button img {
-    height: 30px;
+    height: 40px;
 }
 
 @media (max-width: 600px) {
     .button img {
-        height: 22px;
+        height: 30px;
     }
 }
 
