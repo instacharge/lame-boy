@@ -38,7 +38,7 @@ class Home extends React.Component {
             this.setState({
                 email: true
             })
-        }, 1000)
+        }, 500)
     }
 
     render() {
