@@ -19,6 +19,7 @@ class Home extends React.Component {
         }
 
         this.textInput = React.createRef()
+        this.scrollPoint = React.createRef()  
     }
 
     toggleWindow = (e) => {
@@ -29,9 +30,10 @@ class Home extends React.Component {
         })
         
         this.textInput.current.focus()
+        window.scrollTo(0, this.scrollPoint.current.offsetTop)
     }
 
-    timeout = null;
+    timeout = null
     showBtn = () => {
         if (this.timeout) clearTimeout(this.timeout)
         this.timeout = setTimeout(() => {
@@ -45,7 +47,7 @@ class Home extends React.Component {
         return (
             <>
                 <div className={this.state.subscribe ? 'subscribe-popup show' : 'subscribe-popup'} onClick={this.toggleWindow}>
-                    <img src={EnterYourEmail} className="enter-your-email" alt="Enter Your Email" />
+                    <img src={EnterYourEmail} className="enter-your-email" alt="Enter Your Email" ref={this.scrollPoint} />
                     <form action="https://lame-boy.us4.list-manage.com/subscribe/post?u=2c71d6f9f2cee6717ce1efc9f&amp;id=922895561e" method="post">
                         <input name="EMAIL" type="text" onChange={this.showBtn} ref={this.textInput} />
                         <input className={this.state.email ? 'submit-btn show' : 'submit-btn'} type="image" value="submit" src={SubmitButton} alt="Enter Your Email" />
