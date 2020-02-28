@@ -43,7 +43,7 @@ class Home extends React.Component {
                 <div className={this.state.subscribe ? 'subscribe-popup show' : 'subscribe-popup'} onClick={this.toggleWindow}>
                     <img src={EnterYourEmail} className="enter-your-email" alt="Enter Your Email" />
                     <form action="https://lame-boy.us4.list-manage.com/subscribe/post?u=2c71d6f9f2cee6717ce1efc9f&amp;id=922895561e" method="post">
-                        <input name="EMAIL" type="text" placeholder="shop@lame-boy.com" onChange={this.showBtn}/>
+                        <input name="EMAIL" type="text" onChange={this.showBtn}/>
                         {
                             this.state.email ?
                             <input type="image" value="submit" src={SubmitButton} alt="Enter Your Email" /> :
