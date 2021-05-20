@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/lame-boy/static/css/main.071cc663.chunk.css",
+    "main.js": "/lame-boy/static/js/main.dfe1ad07.chunk.js",
+    "main.js.map": "/lame-boy/static/js/main.dfe1ad07.chunk.js.map",
+    "runtime-main.js": "/lame-boy/static/js/runtime-main.f0f99780.js",
+    "runtime-main.js.map": "/lame-boy/static/js/runtime-main.f0f99780.js.map",
+    "static/css/2.117ce29f.chunk.css": "/lame-boy/static/css/2.117ce29f.chunk.css",
+    "static/js/2.c59745d8.chunk.js": "/lame-boy/static/js/2.c59745d8.chunk.js",
+    "static/js/2.c59745d8.chunk.js.map": "/lame-boy/static/js/2.c59745d8.chunk.js.map",
+    "index.html": "/lame-boy/index.html",
+    "precache-manifest.98b8d8948d05890bd7a00a5d759c14e1.js": "/lame-boy/precache-manifest.98b8d8948d05890bd7a00a5d759c14e1.js",
+    "service-worker.js": "/lame-boy/service-worker.js",
+    "static/css/2.117ce29f.chunk.css.map": "/lame-boy/static/css/2.117ce29f.chunk.css.map",
+    "static/css/main.071cc663.chunk.css.map": "/lame-boy/static/css/main.071cc663.chunk.css.map",
+    "static/js/2.c59745d8.chunk.js.LICENSE.txt": "/lame-boy/static/js/2.c59745d8.chunk.js.LICENSE.txt",
+    "static/media/button-cart-scan.png": "/lame-boy/static/media/button-cart-scan.30542195.png",
+    "static/media/button-contact-scan.png": "/lame-boy/static/media/button-contact-scan.f674e2ad.png",
+    "static/media/button-media-scan.png": "/lame-boy/static/media/button-media-scan.4fa60e1c.png",
+    "static/media/enter-your-email.jpg": "/lame-boy/static/media/enter-your-email.a69435f1.jpg",
+    "static/media/Home.css": "/lame-boy/static/media/lame-boy-logo-scan.6243701e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0f99780.js",
+    "static/css/2.117ce29f.chunk.css",
+    "static/js/2.c59745d8.chunk.js",
+    "static/css/main.071cc663.chunk.css",
+    "static/js/main.dfe1ad07.chunk.js"
+  ]
+}
