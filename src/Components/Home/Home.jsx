@@ -54,19 +54,19 @@ class Home extends React.Component {
                     </form>
                 </div>
                 <div className="home" onClick={this.toggleWindow}>
-                    <a href="# " className="button">
+                    <a href="/shop" className="button">
                         {/* Shop */}
                         <img src={ShopButton} alt=""/>
                     </a>
-                    <a href="# " className="button">
+                    <a href="/cart" className="button">
                         {/* Cart */}
                         <img src={CartButton} alt=""/>
                     </a>
-                    <a href="# " className="button">
+                    <a href="/media" className="button">
                         {/* Media */}
                         <img src={MediaButton} alt=""/>
                     </a>
-                    <a href="# " className="button">
+                    <a href="/contact" className="button">
                         {/* Contact */}
                         <img src={ContactButton} alt=""/>
                     </a>
